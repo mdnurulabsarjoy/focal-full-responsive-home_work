@@ -1,0 +1,427 @@
+/* common css start */
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+h1,h2,h3,h4,h5,h6,
+p,
+small,
+ul,
+ol,
+button{
+   margin: 0;
+   padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+  a {
+    text-decoration: none;
+  }
+/* //comon css end */
+/* nav section start */
+#nav {
+    background: #252e30;
+    width: 100%;
+  }
+  #nav ul li a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 21px 20px;
+  }
+  #nav ul li:hover a{
+    background: #2ecc71;
+ }
+/* // nav sectionend */
+/* banner section start */
+#banner{
+ background: url(../image/banner_bg.jpg);
+ background-position: center;
+ background-size: cover;
+ height: 730px;
+}
+#banner .banner_content h1 {
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 50px;
+}
+#banner .banner_content a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  padding: 21px 37px;
+
+}
+
+/* // banner section end */
+/* feature section start */
+#feature {
+  padding: 97px 0;
+}
+#feature .feature_item h3 {
+  font-size: 30px;
+  color: #566366;
+  text-transform: uppercase;
+  margin: 36px 0px;
+  font-weight: 700;
+}
+#feature .feature_item p {
+  font-size: 18px;
+  color: #919191;
+  line-height: 30px;
+}
+/* //feature section end */
+/* About Section Start */
+#about{
+  background: #f2f2f1;
+}
+#about .about_img{
+  padding-right: 30px;
+}
+#about .about_ohers{
+  margin: 60px 0;
+  width: 100%;
+  margin-left: 98px;
+}
+#about .about_info h2 {
+	font-size: 30px;
+	color: #566366;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+  margin-top: 50px;
+}
+#about .about_item {
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+/* //About Section End */
+/* Skill Section Star */
+#skill{
+  padding: 100px 0;
+}
+.skill_info h3{
+  text-align: left;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #566366;
+}
+.skill_info p{
+  font-size: 18px;
+  color: #566366;
+  margin: 25px 0;
+  margin-bottom: 50px;
+}
+.skill_info a{
+  font-size: 18px;
+  color: #33cc66;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #33cc66;
+  padding:  19px 37px;
+}
+.skill_bar .full{
+  width: 100%;
+  background: #f1f1f1;
+}
+.skill_bar h4{
+  font-size: 22px;
+  color: #566366;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 39px;
+  margin-bottom: 19px;
+}
+.skill_bar .photoshop{
+  width: 90%;
+  background: #2dcb71;
+  text-align: right;
+}
+.skill_bar .illustrator{
+  width: 80%;
+  background: #2dcb71;
+  text-align: right;
+}
+.skill_bar .html{
+  width: 90%;
+  background: #2dcb71;
+  text-align: right;
+}
+.skill_bar .php{
+  width: 70%;
+  background: #2dcb71;
+  text-align: right;
+}
+
+/* //Skill Section End */
+
+/* Resume Section Start */
+#resume {
+  background: #f2f2f1;
+}
+.resume_info {
+  padding: 100px 100px;
+}
+.resume_info h3 {
+  font-weight: 700;
+  font-size: 30px;
+  padding: 25px;
+  color: #566366;
+  text-transform: uppercase;
+}
+.resume_info p {
+  color: #919191;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.resume_info a {
+  padding: 21px 24px;
+  color: #2ecc71;
+  border: solid #2ecc71;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* //Resume Section End */
+/* Education Section Start */
+#education {
+  border-bottom: solid #f2f2f1;
+}
+.my_education {
+  padding-left: 70px;
+}
+.container_education {
+  padding-top: 98px;
+  padding-bottom: 24px;
+}
+.my_education h2 {
+  padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #566366;
+  text-transform: uppercase;
+}
+.my_education p {
+  color: #919191;
+  font-size: 18px;
+  font-weight: 400;
+}
+.others_qualification {
+  padding-left: 30px;
+}
+.others_qualification h3 {
+  font-weight: 700;
+  text-size-adjust: 22px;
+  color: #566366;
+  text-transform: uppercase;
+}
+.others_qualification h6 {
+  margin: 18px 0;
+  color: #919191;
+  font-size: 18px;
+  font-weight: 400;
+}
+.fouryears {
+  background-color: #2ecc71;
+  width: 70px;
+  text-align: center;
+  color: white;
+  padding: 5px 8px;
+  margin: 18px 0;
+}
+.others_qualification p {
+  border-top: solid #f2f2f1;
+  border-top-width: medium;
+  border-top-width: medium;
+  padding-top: 29px;
+  padding-bottom: 74px;
+  border-width: 2px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #919191;
+}
+/* //Education Section End */
+/* Work Experience Section Start */
+#workexperience{
+  margin-top: 90px;
+}
+.container_workexperience{
+  margin-left: 15px;
+}
+.container_workexperience .left {
+  padding-left: 40px;
+}
+.container_workexperience .right {
+  padding-left: 50px;
+}
+.container_workexperience .left h3 {
+    font-size: 30px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+  }
+  .container_workexperience .left p{
+    font-size: 18px;
+    color: #566366;
+  }
+  .container_workexperience .right h4 {
+    font-size: 22px;
+    color: #566366;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 21px;
+  }
+  .container_workexperience .right p {
+    font-size: 18px;
+    color: #566366;
+    margin-bottom: 21px;
+  }
+  .container_workexperience .gpa {
+    background: #2dcb71;
+   color: #fff;
+   display: inline;
+   padding: 10px;
+  }
+/* //Work Experience Section End */
+
+/* work_box Section Start */
+#box_info {
+  color: #f1f1f1;
+}
+#box_info .box_contant {
+  padding: 100px 160px;
+}
+#box_info .box_contant p {
+  font-size: 24px;
+  color: #566366;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#box_info .box_contant h4{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #566366;
+    
+}
+/* //work_box Section End */
+
+/* Portfolio Section Start */
+#portfolio{
+  padding: 80px 0;
+}
+#portfolio .portfolio_item{
+  position: relative
+}
+.portfolio_item .overla {
+  padding: 50px 0;
+}
+#portfolio .portfolio_item .overlay{
+  position: absolute;
+  background: rgba(45, 203, 112, 0.55);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: .05s;
+}
+.portfolio_item img{
+  padding-bottom: 40px;
+}
+#portfolio .portfolio_item:hover .overlay{
+  opacity: 1;
+  visibility: visible;
+}
+
+/* //Portfolio Section End */
+/* Contact Section Start */
+#contact{
+  background: #252d2f;
+  padding: 100px 0;
+}
+.contact_info{
+  color: #fff;
+}
+.contact_info h2{
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 96px 0 40px;
+}
+.contact_info p{
+  font-size: 18px;
+  color: #919191;
+  width: 550px;
+}
+.contact_info address{
+  font-size: 18px;
+  color: #919191;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.contact_form{
+  padding-left: 50px;
+}
+.contact_form input,
+.contact_form textarea{
+  display: block;
+  width: 100%;
+  background: #4b5456;
+  border: none;
+  font-size: 18px;
+  padding: 15px 20px;
+  color: #fff;
+}
+.contact_form label{
+  display: block;
+  margin: 120px 0 20px;
+  color: #fff;
+}
+.contact_form label span{
+  color: #919191;
+}
+.contact_form textarea{
+  resize: vertical;
+  height: 278px;
+}
+.contact_form button{
+  background: #191f21;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  padding: 22PX 52px;
+  border: none;
+}
+/* //Contact Section End */
+/* Foter Section Start */
+#foter{
+  background: #191f21;
+  padding: 46px 0;
+}
+.foter_info h2{
+  font-size: 14px;
+  font-weight: 700;
+  color: #4b5456;
+  text-transform: uppercase;
+}
+/* Foter Section End
